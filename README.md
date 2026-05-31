@@ -32,19 +32,6 @@ O projeto não utiliza bibliotecas, frameworks, Bootstrap, Tailwind, React, Vue,
 1. Baixe ou clone o repositório.
 2. Abra o arquivo `index.html` diretamente no navegador.
 
-## Estrutura de arquivos
-```text
-/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-├── assets/
-│   └── ficha-tecnica.txt
-└── img/
-    └── painel-caminhos.svg
-```
-
 ## Acessibilidade
 O site possui estrutura semântica com `header`, `nav`, `main`, `section`, `article` e `footer`. Também inclui link para pular ao conteúdo principal, campos com `label`, botões grandes, foco visível, contraste adequado, `aria-live` nas áreas de resultado, `aria-expanded` nos acordeões e controles de alto contraste e modo leitura.
 
@@ -55,7 +42,7 @@ O layout usa Flexbox, Grid e Media Queries para se adaptar a computador, tablet 
 As ilustrações, linhas de conexão, mapa visual, marcadores e elementos gráficos foram criados e customizados no próprio projeto com HTML, CSS e SVG autoral. A imagem `img/painel-caminhos.svg` é usada na abertura do site, e o arquivo `assets/ficha-tecnica.txt` funciona como ficha técnica complementar acessível pelo rodapé.
 
 ## Dados do projeto
-- Nome: Giovanna Araujo Mello
+- Nome: Giovanna Araujo de Mello
 - Turma: 3º Ano E
 - Escola: Colégio Estadual Padre Cláudio Morelli
 - Professor(a): Rafael dos Santos Biano
