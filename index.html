@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Painel de Caminhos para o Agricultor Familiar sobre políticas de incentivo, apoio público e impacto social.">
+  <title>Raízes que Sustentam | Painel de Incentivo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+
+  <header class="tool-header">
+    <nav class="tool-nav" aria-label="Navegação do painel">
+      <a class="quiet-name" href="#inicio">Raízes que Sustentam</a>
+      <div class="tool-seal" aria-label="Assinatura do projeto">Painel de Incentivo à Agricultura Familiar</div>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="menu-principal">
+        <li><a href="#inicio">Mapa</a></li>
+        <li><a href="#quem-produz">Quem produz</a></li>
+        <li><a href="#falhas">Obstáculos</a></li>
+        <li><a href="#painel">Painel</a></li>
+        <li><a href="#politicas">Políticas</a></li>
+        <li><a href="#decisoes">Decisões</a></li>
+      </ul>
+
+      <div class="access-tools" aria-label="Recursos de acessibilidade">
+        <button class="access-btn" id="contrast-toggle" type="button" aria-pressed="false">Alto contraste</button>
+        <button class="access-btn" id="reading-toggle" type="button" aria-pressed="false">Modo leitura</button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="opening" id="inicio" aria-labelledby="opening-title">
+      <div class="opening-copy">
+        <p class="kicker">Jornada interativa de apoio público</p>
+        <h1 id="opening-title">O campo invisível que sustenta a cidade.</h1>
+        <p>Por trás de cada feira, merenda escolar e alimento na mesa, existe uma rede de famílias produtoras que precisa de apoio para continuar produzindo com dignidade.</p>
+        <div class="opening-actions">
+          <a class="action primary" href="#quem-produz">Começar a jornada</a>
+          <a class="action ghost" href="#painel">Abrir painel de apoio</a>
+        </div>
+      </div>
+
+      <div class="map-board" aria-label="Mapa visual conectando campo, família produtora, feira, escola e cidade">
+        <img class="map-emblem" src="img/painel-caminhos.svg" alt="Ilustração autoral de caminhos conectando agricultura familiar, escola, feira e cidade.">
+        <div class="terrain city">
+          <span>cidade</span>
+          <i></i><i></i><i></i>
+        </div>
+        <div class="terrain field">
+          <span>campo</span>
+          <i></i><i></i><i></i><i></i>
+        </div>
+        <svg class="connection-lines" viewBox="0 0 680 440" aria-hidden="true">
+          <path d="M110 308 C230 210, 310 220, 430 128" />
+          <path d="M145 318 C250 340, 370 326, 530 286" />
+          <path d="M208 210 C312 164, 386 204, 492 198" />
+          <path d="M338 348 C350 264, 376 198, 446 142" />
+        </svg>
+        <div class="map-pin producer"><b>Família</b><span>decide, planta e vende</span></div>
+        <div class="map-pin fair"><b>Feira</b><span>renda local</span></div>
+        <div class="map-pin school"><b>Escola</b><span>alimentação e aprendizagem</span></div>
+        <div class="map-pin consumer"><b>Consumidor</b><span>escolha que fortalece</span></div>
+        <div class="stat-marker one"><strong>70%</strong><span>do sentido social está na conexão</span></div>
+        <div class="stat-marker two"><strong>+ apoio</strong><span>menos invisibilidade</span></div>
+      </div>
+    </section>
+
+    <section class="producer-profile section-pad" id="quem-produz" aria-labelledby="producer-title">
+      <aside class="producer-file" aria-label="Ficha social do agricultor familiar">
+        <div class="file-top">
+          <span>Ficha do produtor</span>
+          <strong>AF-2026</strong>
+        </div>
+        <dl>
+          <div><dt>Trabalho</dt><dd>familiar e coletivo</dd></div>
+          <div><dt>Produção</dt><dd>alimentos variados</dd></div>
+          <div><dt>Local</dt><dd>pequenas propriedades e comunidades rurais</dd></div>
+          <div><dt>Desafio</dt><dd>produzir, vender e sobreviver com dignidade</dd></div>
+          <div><dt>Importância</dt><dd>abastecimento, renda e cultura local</dd></div>
+        </dl>
+      </aside>
+
+      <div class="profile-text">
+        <p class="kicker">Quem produz?</p>
+        <h2 id="producer-title">Quem é o agricultor familiar?</h2>
+        <p>A agricultura familiar não é apenas um modelo de produção. É uma forma de vida, trabalho e permanência no campo. Nela, a família participa diretamente das decisões, do cultivo, da venda e da gestão da propriedade.</p>
+        <p>Quando o apoio público funciona, essa família deixa de enfrentar tudo sozinha e passa a ter caminhos para produzir melhor, vender com justiça e permanecer no território.</p>
+      </div>
+    </section>
+
+    <section class="obstacle-map section-pad" id="falhas" aria-labelledby="obstacle-title">
+      <div class="section-intro">
+        <p class="kicker">Onde o sistema falha?</p>
+        <h2 id="obstacle-title">O problema não está só em plantar. Está em conseguir continuar.</h2>
+      </div>
+      <ol class="route">
+        <li><span>01</span><strong>Crédito difícil</strong><p>Sem capital, melhorias urgentes ficam paradas.</p></li>
+        <li><span>02</span><strong>Falta de assistência técnica</strong><p>Decisões sobre solo, cultivo e gestão viram tentativa e erro.</p></li>
+        <li><span>03</span><strong>Estradas ruins</strong><p>O alimento perde qualidade antes de chegar ao comprador.</p></li>
+        <li><span>04</span><strong>Atravessadores</strong><p>Parte do valor fica no caminho, longe de quem produziu.</p></li>
+        <li><span>05</span><strong>Baixo acesso à tecnologia</strong><p>Informação, previsão e controle chegam tarde ou nem chegam.</p></li>
+        <li><span>06</span><strong>Perdas por clima</strong><p>Seca, chuva e calor extremo tornam a renda instável.</p></li>
+        <li><span>07</span><strong>Pouca valorização local</strong><p>A cidade consome, mas nem sempre reconhece a origem.</p></li>
+        <li><span>08</span><strong>Dificuldade para vender</strong><p>Produzir bem não garante acesso a mercado justo.</p></li>
+      </ol>
+    </section>
+
+    <section class="support-panel section-pad" id="painel" aria-labelledby="panel-title">
+      <div class="panel-heading">
+        <div>
+          <p class="kicker">Função principal</p>
+          <h2 id="panel-title">Painel de Caminhos de Apoio</h2>
+          <p>Monte um caso real e veja quais políticas podem abrir caminho para a família produtora.</p>
+        </div>
+        <div class="panel-status" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="case-builder">
+        <form class="case-form" id="case-form">
+          <label for="difficulty">A. Principal dificuldade</label>
+          <select id="difficulty" name="difficulty" required>
+            <option value="">Escolha uma dificuldade</option>
+            <option>Falta de dinheiro para investir</option>
+            <option>Dificuldade para vender</option>
+            <option>Falta de orientação técnica</option>
+            <option>Perdas por desperdício</option>
+            <option>Pouco acesso à tecnologia</option>
+            <option>Produção afetada pelo clima</option>
+            <option>Baixa valorização do produto local</option>
+          </select>
+
+          <label for="production">B. Tipo de produção</label>
+          <select id="production" name="production" required>
+            <option value="">Escolha a produção</option>
+            <option>Horta familiar</option>
+            <option>Alimentos variados</option>
+            <option>Leite e derivados</option>
+            <option>Agroindústria familiar</option>
+            <option>Produção agroecológica</option>
+            <option>Venda em feira</option>
+          </select>
+
+          <label for="goal">C. Objetivo da família</label>
+          <select id="goal" name="goal" required>
+            <option value="">Escolha o objetivo</option>
+            <option>Aumentar renda</option>
+            <option>Reduzir perdas</option>
+            <option>Vender direto</option>
+            <option>Produzir de forma sustentável</option>
+            <option>Melhorar estrutura</option>
+            <option>Acessar novos mercados</option>
+          </select>
+
+          <button class="action primary full" type="submit">Gerar plano de apoio</button>
+        </form>
+
+        <div class="plan-output" id="plan-output" aria-live="polite">
+          <div class="waiting-plan">
+            <span>Plano aguardando dados</span>
+            <p>Selecione dificuldade, produção e objetivo para revelar uma trilha de apoio.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="policy-library section-pad" id="politicas" aria-labelledby="library-title">
+      <div class="section-intro">
+        <p class="kicker">Biblioteca de instrumentos</p>
+        <h2 id="library-title">Políticas que viram caminhos</h2>
+      </div>
+      <div class="accordion" id="policy-accordion">
+        <article class="drawer">
+          <button type="button" aria-expanded="false">Crédito e financiamento</button>
+          <div class="drawer-content"><p><b>Serve para:</b> investir em estrutura, sementes, irrigação e equipamentos.</p><p><b>Resolve:</b> falta de capital inicial.</p><p><b>Exemplo:</b> crédito orientado para comprar irrigação sem comprometer toda a renda.</p></div>
+        </article>
+        <article class="drawer">
+          <button type="button" aria-expanded="false">Assistência técnica</button>
+          <div class="drawer-content"><p><b>Serve para:</b> orientar produção, solo, gestão e sustentabilidade.</p><p><b>Resolve:</b> decisões feitas sem informação técnica.</p><p><b>Exemplo:</b> técnico ajuda a reduzir pragas e melhorar produtividade.</p></div>
+        </article>
+        <article class="drawer">
+          <button type="button" aria-expanded="false">Compra pública de alimentos</button>
+          <div class="drawer-content"><p><b>Serve para:</b> conectar produtores a escolas e instituições.</p><p><b>Resolve:</b> dificuldade de venda e instabilidade de mercado.</p><p><b>Exemplo:</b> alimentos locais entram na merenda escolar.</p></div>
+        </article>
+        <article class="drawer">
+          <button type="button" aria-expanded="false">Cooperativas e associações</button>
+          <div class="drawer-content"><p><b>Serve para:</b> vender, comprar e negociar em grupo.</p><p><b>Resolve:</b> isolamento e pouca força comercial.</p><p><b>Exemplo:</b> produtores organizam entrega coletiva para feira.</p></div>
+        </article>
+        <article class="drawer">
+          <button type="button" aria-expanded="false">Capacitação e educação rural</button>
+          <div class="drawer-content"><p><b>Serve para:</b> desenvolver gestão, inovação e planejamento.</p><p><b>Resolve:</b> dificuldade de administrar custos e ampliar qualidade.</p><p><b>Exemplo:</b> curso de boas práticas para agroindústria familiar.</p></div>
+        </article>
+        <article class="drawer">
+          <button type="button" aria-expanded="false">Tecnologia e internet no campo</button>
+          <div class="drawer-content"><p><b>Serve para:</b> usar dados, aplicativos, previsão climática e venda digital.</p><p><b>Resolve:</b> isolamento informacional.</p><p><b>Exemplo:</b> controle de estoque e divulgação de produtos pelo celular.</p></div>
+        </article>
+        <article class="drawer">
+          <button type="button" aria-expanded="false">Agroecologia e sustentabilidade</button>
+          <div class="drawer-content"><p><b>Serve para:</b> conservar solo, água, sementes e biodiversidade.</p><p><b>Resolve:</b> desgaste ambiental e dependência de insumos caros.</p><p><b>Exemplo:</b> compostagem e rotação de culturas reduzem perdas.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="domino section-pad" aria-labelledby="domino-title">
+      <div class="section-intro">
+        <p class="kicker">Efeito dominó</p>
+        <h2 id="domino-title">Quando o incentivo chega, o impacto se espalha.</h2>
+      </div>
+      <ol class="impact-flow">
+        <li>Política pública</li>
+        <li>Produtor acessa apoio</li>
+        <li>Produção melhora</li>
+        <li>Renda aumenta</li>
+        <li>Alimento chega à comunidade</li>
+        <li>Economia local se fortalece</li>
+        <li>Futuro no campo se torna possível</li>
+      </ol>
+    </section>
+
+    <section class="human-link section-pad" aria-labelledby="human-title">
+      <div class="human-copy">
+        <p class="kicker">Campo, escola e cidade</p>
+        <h2 id="human-title">O alimento não nasce no mercado.</h2>
+        <p>A cidade muitas vezes consome sem enxergar quem produz. Aproximar escola, campo e comunidade ajuda a valorizar o trabalho rural, reduzir desperdícios e entender que políticas públicas também são ferramentas de justiça social.</p>
+      </div>
+      <div class="three-columns">
+        <section aria-label="Escola"><h3>Escola</h3><ul><li>pesquisa a origem dos alimentos</li><li>cria hortas</li><li>visita feiras</li><li>debate consumo consciente</li></ul></section>
+        <section aria-label="Campo"><h3>Campo</h3><ul><li>produz</li><li>preserva saberes</li><li>gera renda</li><li>abastece comunidades</li></ul></section>
+        <section aria-label="Cidade"><h3>Cidade</h3><ul><li>consome</li><li>compra</li><li>desperdiça ou valoriza</li><li>decide apoiar produtores locais</li></ul></section>
+      </div>
+    </section>
+
+    <section class="decision-lab section-pad" id="decisoes" aria-labelledby="decision-title">
+      <div class="section-intro">
+        <p class="kicker">Simulação curta</p>
+        <h2 id="decision-title">Você decide: qual apoio muda mais essa realidade?</h2>
+      </div>
+      <form class="decision-form" id="decision-form">
+        <div id="decision-questions"></div>
+        <button class="action primary" type="submit">Analisar decisões</button>
+        <div class="decision-result" id="decision-result" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section class="manifesto section-pad">
+      <p class="kicker">Manifesto final</p>
+      <h2>Incentivar a agricultura familiar é escolher que futuro queremos alimentar.</h2>
+      <p>Quando uma política pública chega ao agricultor familiar, ela não beneficia apenas uma propriedade. Ela fortalece a feira, a escola, a alimentação, a cultura local, a economia regional e a permanência das famílias no campo.</p>
+      <a class="action ghost" href="#painel">Voltar ao painel</a>
+    </section>
+  </main>
+
+  <footer class="project-file">
+    <div class="file-top">
+      <span>Ficha do Projeto</span>
+      <strong>Painel informativo</strong>
+    </div>
+    <dl>
+      <div><dt>Tema</dt><dd>Políticas de incentivo à agricultura familiar</dd></div>
+      <div><dt>Nome</dt><dd>Giovanna Araujo Mello</dd></div>
+      <div><dt>Turma</dt><dd>3º Ano E</dd></div>
+      <div><dt>Escola</dt><dd>Colégio Estadual Padre Cláudio Morelli</dd></div>
+      <div><dt>Professor(a)</dt><dd>Rafael dos Santos Biano</dd></div>
+      <div><dt>Tecnologias</dt><dd>HTML, CSS e JavaScript</dd></div>
+      <div><dt>Ano</dt><dd>2026</dd></div>
+    </dl>
+    <p>© 2026 — Todos os direitos reservados.</p>
+    <a class="resource-link" href="assets/ficha-tecnica.txt">Abrir ficha técnica do projeto</a>
+  </footer>
+
+  <button class="top-button" id="top-button" type="button" aria-label="Voltar ao topo">Topo</button>
+  <script src="script.js" defer></script>
+</body>
+</html>

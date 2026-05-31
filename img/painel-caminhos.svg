@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 360" role="img" aria-labelledby="title desc">
+  <title id="title">Painel de caminhos da agricultura familiar</title>
+  <desc id="desc">Ilustração autoral com campo, cidade, escola, feira e linhas de apoio público conectando os pontos.</desc>
+  <rect width="620" height="360" rx="18" fill="#f2e4c8"/>
+  <path d="M0 250 C120 210 210 235 320 196 C428 158 500 180 620 132 L620 360 L0 360 Z" fill="#3f5136"/>
+  <path d="M388 0 L620 0 L620 146 C548 165 486 146 424 170 C410 114 390 72 388 0 Z" fill="#174b50"/>
+  <g fill="#fff8eb">
+    <rect x="454" y="54" width="30" height="82"/>
+    <rect x="498" y="32" width="38" height="112"/>
+    <rect x="552" y="68" width="28" height="66"/>
+  </g>
+  <g fill="none" stroke="#a64f39" stroke-width="5" stroke-linecap="round" stroke-dasharray="10 12">
+    <path d="M112 252 C190 172 276 206 360 116"/>
+    <path d="M142 272 C248 304 376 294 506 232"/>
+    <path d="M204 160 C286 104 368 128 476 126"/>
+  </g>
+  <g fill="#e1b646" stroke="#3b261c" stroke-width="5">
+    <circle cx="112" cy="252" r="18"/>
+    <circle cx="360" cy="116" r="18"/>
+    <circle cx="506" cy="232" r="18"/>
+    <circle cx="204" cy="160" r="18"/>
+  </g>
+  <g fill="#3b261c" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="18">
+    <text x="75" y="298">família</text>
+    <text x="324" y="92">escola</text>
+    <text x="477" y="273">feira</text>
+    <text x="170" y="136">apoio</text>
+  </g>
+  <g fill="#fff8eb" stroke="#3b261c" stroke-width="4">
+    <path d="M88 220 h46 v38 h-46z"/>
+    <path d="M80 220 l31 -26 l31 26z"/>
+    <rect x="478" y="198" width="58" height="32"/>
+    <path d="M470 198 h74 l-12 -22 h-50z"/>
+  </g>
+</svg>

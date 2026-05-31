@@ -1,0 +1,29 @@
+Raízes que Sustentam
+Painel de Incentivo à Agricultura Familiar
+
+Tema:
+Políticas de incentivo à agricultura familiar.
+
+Autoria:
+Giovanna Araujo Mello
+
+Turma:
+3º Ano E
+
+Escola:
+Colégio Estadual Padre Cláudio Morelli
+
+Professor:
+Rafael dos Santos Biano
+
+Funções principais:
+- Painel de Caminhos de Apoio
+- Acordeão de políticas públicas
+- Simulação de decisões públicas
+- Alto contraste
+- Modo leitura
+- Barra de progresso de leitura
+- Botão de voltar ao topo
+
+Mídias e elementos visuais:
+A ilustração em img/painel-caminhos.svg foi criada como mídia autoral/customizada para o projeto.
